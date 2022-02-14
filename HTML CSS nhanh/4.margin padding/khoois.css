@@ -1,0 +1,23 @@
+.khoi {
+    background-color: #fff;
+    width: 453px;
+    height: 235px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.paragrapher {
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+.img-1 {
+    width: 181px;
+    height: 50px;
+    float: bottom;
+}
+
+.khoi-bai-viet {
+    border: 1px solid grey;
+}

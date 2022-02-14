@@ -1,0 +1,28 @@
+<!DOCTYLE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<title>tên trangweb</title><script data-ad-client="ca-pub-2883196244040435" async src="https://..."></script>
+</head>
+<body>
+</body>
+</html>
+
+******chỉ HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Quân</title>
+</head>
+
+<body>
+    HELLO WORLD!
+</body>
+
+</html>

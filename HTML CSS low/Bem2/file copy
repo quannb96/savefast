@@ -1,0 +1,45 @@
+<!-- Info -->
+        <div class="toast toast--info">
+            <div class="toast__icon">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Anyone with access can view your invited visitors.</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa fa-times" aria-hidden="true"></i>        
+            </div>
+        </div>
+
+        <!-- Warning -->
+        <div class="toast toast--warning">
+            <div class="toast__icon">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Anyone with access can view your invited visitors.</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa fa-times" aria-hidden="true"></i>        
+            </div>
+        </div>
+
+        <!-- Error -->
+        <div class="toast toast--error">
+            <div class="toast__icon">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Anyone with access can view your invited visitors.</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa fa-times" aria-hidden="true"></i>        
+            </div>
+        </div>
+
+=====css: theem vaof
+.toast {
+    transform: translateX(calc(100% + 32px))

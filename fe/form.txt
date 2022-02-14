@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Quân</title>
+</head>
+
+<body>
+    <div>
+        <h1>CSS tHTML</h1>
+        <ol>
+            <li>Interal</li>
+            <li>External</li>
+            <li>Inline</li>
+        </ol>
+    </div>
+</body>
+
+</html>

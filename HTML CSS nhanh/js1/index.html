@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Javascript</title>
+</head>
+<body>
+    <div>Javascript</div>
+    <div id="demo"></div>
+    <script>
+        document.getElementById("demo").innerHTML = 2 + 9;
+    </script>
+    <script>
+        document.write(6 + 8);
+    </script>
+    <div>
+        <button type="button" onclick="document.write(3 + 9)">Click</button>
+    </div>
+    <!-- <script>
+        window.alert(9 + 12);
+    </script> -->
+    <script>
+        console.log(16 - 9);
+    </script>
+    <button type="button" onclick="window.print()">Print the window</button>
+    <p id="demo2"></p>
+    <script>
+        document.getElementById("demo2").innerHTML = "Hello world!";
+    </script>
+    <div>
+        <button type="button" onclick="myFunction()">Click here</button>
+    </div>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        function myFunction() {
+            document.getElementById("demo3").innerHTML = "Hello Everybody!";
+            document.getElementById("demo4").innerHTML = "My name Quan handsome!";
+        }
+    </script>
+
+   <div>
+       <button type="button" onclick="myFunction2()">This is total</button>
+    </div>
+    <p id="demo5"></p>
+   <script>
+       var x, y;
+        x = 157;
+        y = 7564;
+        total = x + y;
+        function myFunction2() {
+            document.getElementById("demo5").innerHTML = "This is total: " + total;
+        }
+   </script>
+    <button type="button" onclick="document.write(1776367 -78323)">Click here</button>
+
+    <p id="demo6"></p>
+    <script>
+        var x = myFunction3(6, 8);
+        document.getElementById("demo6").innerHTML = x;
+        function myFunction3(a, b) {
+            return a * b;
+        }
+    </script>
+    <p id="demo7"></p>
+    <script>
+        document.getElementById("demo7").innerHTML = "This is " + toCelsius(77) + " Celcius";
+        function toCelsius(f) {
+        return (5/9) * (f-32);
+        }
+    </script>
+    <button onclick="document.getElementById('demo8').innerHTML = Date();">This is time</button>
+    <p id="demo8"></p>
+    
+    <button onclick="this.innerHTML=Date()">This is time</button>
+</body>
+</html>

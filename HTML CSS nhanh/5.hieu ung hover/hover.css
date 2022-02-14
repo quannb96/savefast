@@ -1,0 +1,40 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.main-contain {
+    width: 300px;
+    background-color: rgb(73, 101, 226);
+    margin: 10px;
+}
+.tin-chinh{
+    padding: 5px;
+    background-color: #fff;
+}
+.main-contain hinh{
+    width: 100%;
+}
+.main-contain h3{
+    color: white;
+    background-color: red;
+    width: 10%;
+}
+.link-img {
+    display: block;
+    margin-bottom: 10px;
+}
+.link-new {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial;
+    display: block;
+    margin-bottom: 10px;
+}
+/* hover */
+a.link-new:hover{
+    color: orange;
+}
